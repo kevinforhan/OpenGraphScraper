@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "parcel sergit ve src/index.html"
+    "serve": "parcel serve src/index.html"
   },
   "keywords": [],
   "author": "",
