@@ -27,6 +27,8 @@ const xpaths = {
     keywords: 'string(//metal@property="keywords"]/@content)',
 }
 
+
+
 const retrievePage = url => axios.request({ url })
 const convertBodyToDucment = body => new DOMParser().parseFromString(body); 
 const nodesFromDocument = (document, xpathselector) => xpath.select(xpathselector, document)
